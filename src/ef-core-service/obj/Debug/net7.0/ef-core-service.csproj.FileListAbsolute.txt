@@ -1,0 +1,15 @@
+C:\Users\const\source\repos\EFCoreInAction\ef-core-in-action\src\ef-core-service\bin\Debug\net7.0\ef-core-service.deps.json
+C:\Users\const\source\repos\EFCoreInAction\ef-core-in-action\src\ef-core-service\bin\Debug\net7.0\ef-core-service.dll
+C:\Users\const\source\repos\EFCoreInAction\ef-core-in-action\src\ef-core-service\bin\Debug\net7.0\ef-core-service.pdb
+C:\Users\const\source\repos\EFCoreInAction\ef-core-in-action\src\ef-core-service\obj\Debug\net7.0\ef-core-service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\const\source\repos\EFCoreInAction\ef-core-in-action\src\ef-core-service\obj\Debug\net7.0\ef-core-service.AssemblyInfoInputs.cache
+C:\Users\const\source\repos\EFCoreInAction\ef-core-in-action\src\ef-core-service\obj\Debug\net7.0\ef-core-service.AssemblyInfo.cs
+C:\Users\const\source\repos\EFCoreInAction\ef-core-in-action\src\ef-core-service\obj\Debug\net7.0\ef-core-service.csproj.CoreCompileInputs.cache
+C:\Users\const\source\repos\EFCoreInAction\ef-core-in-action\src\ef-core-service\obj\Debug\net7.0\ef-core-service.dll
+C:\Users\const\source\repos\EFCoreInAction\ef-core-in-action\src\ef-core-service\obj\Debug\net7.0\refint\ef-core-service.dll
+C:\Users\const\source\repos\EFCoreInAction\ef-core-in-action\src\ef-core-service\obj\Debug\net7.0\ef-core-service.pdb
+C:\Users\const\source\repos\EFCoreInAction\ef-core-in-action\src\ef-core-service\obj\Debug\net7.0\ref\ef-core-service.dll
+C:\Users\const\source\repos\EFCoreInAction\ef-core-in-action\src\ef-core-service\bin\Debug\net7.0\ef-core-data.dll
+C:\Users\const\source\repos\EFCoreInAction\ef-core-in-action\src\ef-core-service\bin\Debug\net7.0\ef-core-data.pdb
+C:\Users\const\source\repos\EFCoreInAction\ef-core-in-action\src\ef-core-service\obj\Debug\net7.0\ef-core-service.csproj.AssemblyReference.cache
+C:\Users\const\source\repos\EFCoreInAction\ef-core-in-action\src\ef-core-service\obj\Debug\net7.0\ef-core-service.csproj.CopyComplete

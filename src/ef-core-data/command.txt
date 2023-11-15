@@ -1,0 +1,15 @@
+﻿// ef core with separate project for data-layer runned from root location
+dotnet ef migrations add InitialCreate --project ef-core-data --startup-project ef-core-web  --verbose
+
+dotnet ef database update --project ef-core-data --startup-project ef-core-web  --verbose
+
+
+
+// ef core with separate project for data-layer runned from main project
+dotnet ef migrations add InitialCreate --project ../ef-core-data --verbose
+
+
+Eager Loading -> loads all the data
+Explicit Loading -> explicitly load parts of the data when needed
+Select Loading -> specify which properties you want
+Lazy Loading -> loads data automatically when the property is accessed

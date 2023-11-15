@@ -5,6 +5,10 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ef-core-web", "ef-core-web\ef-core-web.csproj", "{2D5DD125-2A19-4602-A98B-789ECB0B9C46}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ef-core-data", "ef-core-data\ef-core-data.csproj", "{37F7DA30-691D-4745-8C61-8CA59C4B48B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ef-core-service", "ef-core-service\ef-core-service.csproj", "{F913E752-AF8B-4B31-A856-2AEA2B5CD5C8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +22,13 @@ Global
 		{2D5DD125-2A19-4602-A98B-789ECB0B9C46}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2D5DD125-2A19-4602-A98B-789ECB0B9C46}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2D5DD125-2A19-4602-A98B-789ECB0B9C46}.Release|Any CPU.Build.0 = Release|Any CPU
+		{37F7DA30-691D-4745-8C61-8CA59C4B48B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37F7DA30-691D-4745-8C61-8CA59C4B48B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37F7DA30-691D-4745-8C61-8CA59C4B48B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37F7DA30-691D-4745-8C61-8CA59C4B48B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F913E752-AF8B-4B31-A856-2AEA2B5CD5C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F913E752-AF8B-4B31-A856-2AEA2B5CD5C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F913E752-AF8B-4B31-A856-2AEA2B5CD5C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F913E752-AF8B-4B31-A856-2AEA2B5CD5C8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
