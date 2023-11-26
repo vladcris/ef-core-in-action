@@ -3,19 +3,25 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ef-core-web", "ef-core-web\ef-core-web.csproj", "{2D5DD125-2A19-4602-A98B-789ECB0B9C46}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ef-core-web", "ef-core-web\ef-core-web.csproj", "{2D5DD125-2A19-4602-A98B-789ECB0B9C46}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ef-core-data", "ef-core-data\ef-core-data.csproj", "{37F7DA30-691D-4745-8C61-8CA59C4B48B1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ef-core-data", "ef-core-data\ef-core-data.csproj", "{37F7DA30-691D-4745-8C61-8CA59C4B48B1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ef-core-service", "ef-core-service\ef-core-service.csproj", "{F913E752-AF8B-4B31-A856-2AEA2B5CD5C8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ef-core-service", "ef-core-service\ef-core-service.csproj", "{F913E752-AF8B-4B31-A856-2AEA2B5CD5C8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C7457A2B-D6EF-4CFA-ADD4-54ADBC24C699}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ef-core-bizz-db", "ef-core-bizz-db\ef-core-bizz-db.csproj", "{2027C9BD-A1A5-4F79-BFB4-4D9B38483913}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ef-core-bizz-logic", "ef-core-bizz-logic\ef-core-bizz-logic.csproj", "{189C96AE-C1D3-4574-98CE-664DDC30CD65}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{2D5DD125-2A19-4602-A98B-789ECB0B9C46}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -30,5 +36,16 @@ Global
 		{F913E752-AF8B-4B31-A856-2AEA2B5CD5C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F913E752-AF8B-4B31-A856-2AEA2B5CD5C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F913E752-AF8B-4B31-A856-2AEA2B5CD5C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2027C9BD-A1A5-4F79-BFB4-4D9B38483913}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2027C9BD-A1A5-4F79-BFB4-4D9B38483913}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2027C9BD-A1A5-4F79-BFB4-4D9B38483913}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2027C9BD-A1A5-4F79-BFB4-4D9B38483913}.Release|Any CPU.Build.0 = Release|Any CPU
+		{189C96AE-C1D3-4574-98CE-664DDC30CD65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{189C96AE-C1D3-4574-98CE-664DDC30CD65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{189C96AE-C1D3-4574-98CE-664DDC30CD65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{189C96AE-C1D3-4574-98CE-664DDC30CD65}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal

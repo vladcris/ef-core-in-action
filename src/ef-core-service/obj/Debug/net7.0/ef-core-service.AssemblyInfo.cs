@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ef-core-service")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9d7d065390a831611400411e1753a71d4e23add2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("ef-core-service")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ef-core-service")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -2,7 +2,7 @@ using ef_core_data;
 using ef_core_service.AppStart;
 using Microsoft.EntityFrameworkCore;
 
-var builder = WebApplication.CreateBuilder(args);
+WebApplicationBuilder builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
@@ -14,7 +14,7 @@ builder.Services.AddDbContext<AppDbContext>(opt => {
 
 builder.Services.RegisterServiceLayer();
 
-var app = builder.Build();
+WebApplication app = builder.Build();
 
 
 // Configure the HTTP request pipeline.

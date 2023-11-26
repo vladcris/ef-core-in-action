@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "ef-core-bizz-db/1.0.0": {
+        "runtime": {
+          "ef-core-bizz-db.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ef-core-bizz-db/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

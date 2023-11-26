@@ -1,0 +1,11 @@
+C:\Users\const\source\repos\EFCoreInAction\ef-core-in-action\src\ef-core-bizz-logic\bin\Debug\net8.0\ef-core-bizz-logic.deps.json
+C:\Users\const\source\repos\EFCoreInAction\ef-core-in-action\src\ef-core-bizz-logic\bin\Debug\net8.0\ef-core-bizz-logic.dll
+C:\Users\const\source\repos\EFCoreInAction\ef-core-in-action\src\ef-core-bizz-logic\bin\Debug\net8.0\ef-core-bizz-logic.pdb
+C:\Users\const\source\repos\EFCoreInAction\ef-core-in-action\src\ef-core-bizz-logic\obj\Debug\net8.0\ef-core-bizz-logic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\const\source\repos\EFCoreInAction\ef-core-in-action\src\ef-core-bizz-logic\obj\Debug\net8.0\ef-core-bizz-logic.AssemblyInfoInputs.cache
+C:\Users\const\source\repos\EFCoreInAction\ef-core-in-action\src\ef-core-bizz-logic\obj\Debug\net8.0\ef-core-bizz-logic.AssemblyInfo.cs
+C:\Users\const\source\repos\EFCoreInAction\ef-core-in-action\src\ef-core-bizz-logic\obj\Debug\net8.0\ef-core-bizz-logic.csproj.CoreCompileInputs.cache
+C:\Users\const\source\repos\EFCoreInAction\ef-core-in-action\src\ef-core-bizz-logic\obj\Debug\net8.0\ef-core-bizz-logic.dll
+C:\Users\const\source\repos\EFCoreInAction\ef-core-in-action\src\ef-core-bizz-logic\obj\Debug\net8.0\refint\ef-core-bizz-logic.dll
+C:\Users\const\source\repos\EFCoreInAction\ef-core-in-action\src\ef-core-bizz-logic\obj\Debug\net8.0\ef-core-bizz-logic.pdb
+C:\Users\const\source\repos\EFCoreInAction\ef-core-in-action\src\ef-core-bizz-logic\obj\Debug\net8.0\ref\ef-core-bizz-logic.dll

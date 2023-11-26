@@ -105,6 +105,57 @@ namespace ef_core_data.Migrations
                     b.ToTable("Book_Author");
                 });
 
+            modelBuilder.Entity("ef_core_data.Models.LineItem", b =>
+                {
+                    b.Property<int>("LineItemId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("LineItemId"));
+
+                    b.Property<int>("BookId")
+                        .HasColumnType("integer");
+
+                    b.Property<decimal>("BookPrice")
+                        .HasColumnType("numeric");
+
+                    b.Property<byte>("LineNum")
+                        .HasColumnType("smallint");
+
+                    b.Property<short>("NumBooks")
+                        .HasColumnType("smallint");
+
+                    b.Property<int>("OrderId")
+                        .HasColumnType("integer");
+
+                    b.HasKey("LineItemId");
+
+                    b.HasIndex("BookId");
+
+                    b.HasIndex("OrderId");
+
+                    b.ToTable("LineItem");
+                });
+
+            modelBuilder.Entity("ef_core_data.Models.Order", b =>
+                {
+                    b.Property<int>("OrderId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("integer");
+
+                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("OrderId"));
+
+                    b.Property<Guid>("CustomerId")
+                        .HasColumnType("uuid");
+
+                    b.Property<DateTimeOffset>("DateOrderedUtc")
+                        .HasColumnType("timestamp with time zone");
+
+                    b.HasKey("OrderId");
+
+                    b.ToTable("Orders");
+                });
+
             modelBuilder.Entity("ef_core_data.Models.PriceOffer", b =>
                 {
                     b.Property<int>("PriceOfferId")
@@ -201,6 +252,23 @@ namespace ef_core_data.Migrations
                     b.Navigation("Book");
                 });
 
+            modelBuilder.Entity("ef_core_data.Models.LineItem", b =>
+                {
+                    b.HasOne("ef_core_data.Models.Book", "ChosenBook")
+                        .WithMany()
+                        .HasForeignKey("BookId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("ef_core_data.Models.Order", null)
+                        .WithMany("LineItems")
+                        .HasForeignKey("OrderId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("ChosenBook");
+                });
+
             modelBuilder.Entity("ef_core_data.Models.PriceOffer", b =>
                 {
                     b.HasOne("ef_core_data.Models.Book", null)
@@ -231,6 +299,11 @@ namespace ef_core_data.Migrations
                     b.Navigation("Promotion");
 
                     b.Navigation("Reviews");
+                });
+
+            modelBuilder.Entity("ef_core_data.Models.Order", b =>
+                {
+                    b.Navigation("LineItems");
                 });
 #pragma warning restore 612, 618
         }
